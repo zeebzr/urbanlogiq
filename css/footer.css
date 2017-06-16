@@ -1,0 +1,19 @@
+/*footer*/
+
+footer {
+  background-color: #24292D;
+  padding: 60px 0 120px 0;
+  color: white;
+}
+
+li{
+  list-style: none;
+}
+.footer-link{
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.footer-header {
+  padding: 0 0 15px 0;
+}

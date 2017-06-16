@@ -1,0 +1,33 @@
+.blog-title{
+  color: black;
+  font-weight: 900;
+  margin: 20px 0 7px 0;
+}
+
+.blog-subheader{
+  font-size: 25px;
+  color: #515151;
+  letter-spacing: 1px;
+  margin: 7px 0 20px 0;
+}
+
+.blog-post {
+  font-size: 20px;
+}
+
+.blog-link{
+  color: #2199e8;
+}
+
+.blog-link:hover {
+  color: #228ac4;
+  border-bottom: 1px solid;
+}
+
+.blog-upnext {
+  margin: 30px 0 0 1%;
+}
+
+.blog-image{
+  padding: 15px;
+}

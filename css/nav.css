@@ -1,0 +1,136 @@
+
+.inner_content {
+	opacity: 0;
+	max-width: 620px;
+	max-height: 100px;
+	padding: 5px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	transition: opacity 1.5s;
+}
+.inner_content h2 {
+	font-size: 46px;
+	font-weight: 100;
+	color: #fff;
+}
+
+/*Navigation*/
+#header_wrap {
+	z-index: 2;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+}
+#header {
+	max-width: 1200px;
+	min-width: 320px;
+	margin: 10px auto;
+	text-align: left;
+	padding: 10px 25px 10px 25px;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
+#header:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+#logo {
+	float: left;
+	font-size: 12px;
+	font-weight: 100;
+  width: 155px;
+}
+.nav {
+	float: right;
+	height: 40px;
+	padding-top: 15px;
+}
+.nav a {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	font-weight: 300;
+	color: #fff;
+	padding-bottom: 5px;
+}
+.nav a:hover {
+	border-bottom: 1px solid #fff;
+}
+.mobile_nav {
+	display: none;
+	width: 24px;
+	height: 24px;
+	background: url(http://i.piccy.info/i9/c366d5ab31a3ca2f5b5f5110434b31a9/1399749144/965/744267/mobile_nav.png) no-repeat;
+	float: right;
+	cursor: pointer;
+	margin-top: 2px;
+}
+.mobile_nav_menu {
+	z-index: 3;
+	width: 220px;
+	height: 100%;
+	position: fixed;
+	padding: 11px 22px 0 0;
+	top: 0;
+	right: -270px;
+	background: url(http://i.piccy.info/i9/90d5aef311fc1a9853cce72695cdfe36/1399749183/4243/744267/mobile_nav_bg.png) no-repeat;
+}
+.mobile_menu {
+	float: right;
+	font-weight: 400;
+	font-style: normal;
+	color: #656565;
+	font-size: 15px;
+	line-height: 32px;
+	text-align: right;
+	padding-bottom: 12px;
+	width: 56px;
+}
+.mobile_menu span {
+	cursor: pointer;
+	color: #656565;
+	padding-bottom: 2px;
+}
+.mobile_menu span:hover {
+	transition: all .25s ease-in-out;
+	border-bottom: 2px solid #fff;
+
+}
+.mobile_close {
+	cursor: pointer;
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url(http://i.piccy.info/i9/88575af4eb3ecd766a58a62971d3631e/1399749221/1231/744267/x_close.png) no-repeat;
+	background-size: 24px 24px;
+	clear: right;
+}
+/*/Navigation*/
+@media (max-width: 600px) and (min-width: 320px) {
+	.nav {
+		display: none;
+	}
+	.mobile_nav {
+		display: block;
+	}
+}
+@media (min-width: 601px) {
+	.nav {
+		display: block;
+	}
+	.mobile_nav {
+		display: none;
+	}
+	.mobile_nav_menu {
+		display: none;
+	}
+}
