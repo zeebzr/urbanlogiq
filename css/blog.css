@@ -1,0 +1,31 @@
+
+.blog-title{
+  color: black;
+  font-weight: 900;
+  margin: 20px 0 7px 0;
+}
+
+.blog-content:hover{
+  text-decoration: underline;
+  text-decoration-color:#2199e8;
+}
+
+.blog-card{
+    margin: 15px 0 15px 0;
+    padding: 25px 25px 0 25px;
+}
+
+.card-date{
+  color: #4C4748;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.showcase-link {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding:20px 0 20px 20px;
+}

@@ -187,24 +187,6 @@ hr{
   font-weight: 900;
 }
 
-.blog-title{
-  color: black;
-  font-weight: 900;
-  margin: 20px 0 7px 0;
-}
-
-
-
-.blog-content:hover{
-  text-decoration: underline;
-  text-decoration-color:#2199e8;
-}
-
-.blog-card{
-    margin: 15px 0 15px 0;
-    padding: 25px 25px 0 25px;
-}
-
 .menu-logo{
   width: 160px;
 }
@@ -280,16 +262,16 @@ hr{
 .platform{
   padding: 100px 30px 50px 30px;
   margin: 15px;
-  background-color: #4962F9;
+  background-color: #0978BD;
   background-image: url("../img/");
   background-size: cover;
 }
 
 .platformtwo{
-  padding: 15px 30px 50px 30px;
+  padding: 60px 30px 50px 30px;
   margin: 15px;
   background-color: #0978BD;
-  background-image: url("../img/bg.png");
+  /*background-image: url("../img/bg.png");*/
   background-size: cover;
 }
 
@@ -557,14 +539,6 @@ margin: 0 auto 0 auto;
 
 .card-section {
   margin: 50px 0 50px 0;
-}
-
-.card-date{
-  color: #4C4748;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 1.5px;
 }
 
 .card {
