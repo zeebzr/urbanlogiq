@@ -6,6 +6,11 @@ footer {
   color: white;
 }
 
+footer p {
+  font-size: 13px;
+  /*text-align: left;*/
+}
+
 li{
   list-style: none;
 }
@@ -16,4 +21,10 @@ li{
 }
 .footer-header {
   padding: 0 0 15px 0;
+}
+
+.footer-icon img {
+  width: 30px;
+  /*float: left;*/
+  margin:10px 10px 0 0;
 }

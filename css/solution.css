@@ -1,0 +1,22 @@
+.data-source{
+  padding: 80px 20px 110px 20px;
+  background-color: #1f8ceb;
+  color: white;
+}
+
+.data-source-text {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.request-demo {
+    padding: 80px 20px 110px 20px;
+    background-color: #1f8ceb;
+    background-image: url("../img/blue-bg.jpg");
+    color: white;
+}
+
+.request-demo h2 {
+  line-height: 40px;
+  letter-spacing: 0.03em;
+}
