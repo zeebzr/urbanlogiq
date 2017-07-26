@@ -29,3 +29,11 @@
   font-size: 13px;
   padding:20px 0 20px 20px;
 }
+
+.ebook-feature img {
+  width: 200px;
+}
+
+.resource-header {
+  padding: 0 0 30px 0;
+}

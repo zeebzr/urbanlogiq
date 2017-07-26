@@ -7,8 +7,8 @@ body {
 
 
 form {
-  width: 700px;
-  margin:120px auto;
+  max-width: 700px;
+  margin:90px auto;
 }
 
 .form-title {
@@ -28,6 +28,7 @@ form {
   letter-spacing: 1px;
   line-height: 1.3em;
   margin: -2px 0 45px;
+  padding: 0 10px 0 10px;
 }
 
 
@@ -41,6 +42,7 @@ form {
 .button {
   height: 44px;
   border: none;
+  padding: 0 15px 0 15px;
 }
 
 
