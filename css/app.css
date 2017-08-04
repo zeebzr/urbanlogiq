@@ -508,10 +508,6 @@ hr{
   margin: 40px 0 40px 0;
 }
 
-.slide-nav{
-max-width: 900px;
-margin: 0 auto 0 auto;
-}
 
 .split-screen {
   overflow: hidden;
@@ -540,7 +536,7 @@ margin: 0 auto 0 auto;
 }
 
 .card-section {
-  margin: 50px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .card {
