@@ -139,6 +139,19 @@ p {
     text-transform: none;
 }
 
+.demo {
+    border: solid white 1px;
+    border-radius: 30px;
+    padding: 20px 35px 20px 35px;
+    color: #0076BE;
+    background-color: white;
+}
+.demo:hover, .demo:focus {
+  border-color: white;
+  color: white;
+  background-color: #0076be;
+}
+
 .header{
   padding: 0px 0 60px 0;
 }
@@ -239,6 +252,7 @@ hr{
 .user-img{
   max-width:120px;
   max-height: 40px;
+  opacity: 0.5;
 }
 
 .icon-img {
@@ -261,11 +275,20 @@ hr{
   min-height: 200px;
 }
 
+.seenon {
+  background-color: #28436B;
+  height: 100px;
+}
+
+.home-header {
+  padding-top: 40px;
+  padding-bottom: 170px;
+}
+
 .platform{
-  padding: 100px 30px 50px 30px;
-  margin: 15px;
+  padding: 100px 30px 0px 30px;
   background-color: #0978BD;
-  background-image: url("../img/");
+  background-image: url("../img/ragnar-vorel-311703.jpg");
   background-size: cover;
 }
 
@@ -559,7 +582,6 @@ hr{
 }
 
   .media {
-    padding-top: 20px;
     margin: 30px 0 0 0;
 }
 
